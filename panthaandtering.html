@@ -49,487 +49,461 @@
       <div class="loading-data"></div>
     </div>
 
-    <!-- HEADER -->
-    <header>
-      <div class="container-fluid shadow">
-        <div class="row">
-          <div id="top-container">
-            <!-- LOGO-->
-            <div class="col-4" style="z-index: 1100">
-              <div>
-                <a href="http://sitesb-html-v2.sesejose.com/">
-                  <img class="logo" src="images/logo.png" alt="Studenterbolaget Logo" />
-                </a>
-              </div>
-            </div>
+    <!--HEADER -->
+<header>
 
-            <!-- SØG DESKTOP-->
-            <div class="col-4 show-on-large show-on-medium hide-on-small">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Søg produkter, brands, kategorier, osv" aria-label="Søg produkter, brands, kategorier, osv" aria-describedby="button-addon2">
-               <div class="input-group-append">
-                  <button onclick="opendropdownsoeg()" class="btn btn-outline-secondary soeg" type="submit" name="action"><i class="icon-search"></i></button>
-                </div>
-              </div>              
-            </div>          
+  <div class="container-fluid shadow">
+    <div class="row">
+      <div id="top-container">
+
+<!--LOGO-->
+      <div class="col-4 position-relative">
+        <div>
+          <a href="index.html">
+            <img class="logo" src="images/logo.png" alt="Studenterbolaget Logo">
+          </a>
+        </div>
+      </div>
+
+
+      <!-- SØG DESKTOP-->
+      <div class="col-4 show-on-large show-on-medium hide-on-small">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Søg produkter, brands, kategorier, osv" aria-label="Søg produkter, brands, kategorier, osv" aria-describedby="button-addon2">
+         <div class="input-group-append">
+            <button onclick="opendropdownsoeg()" class="btn btn-outline-secondary soeg" type="submit" name="action"><i class="icon-search"></i></button>
+          </div>
+        </div>              
+      </div>          
 
 <!-- DROP-DOWN SØG DESKTOP-->
 
-            <div id="drop-down-soeg" class="container-fluid show-on-large show-on-medium hide-on-small">
-              <div class="row no-gutters">
-                <div class="col-md-6 col-lg-4 bg-vare-soeg justify-content-center show-on-large show-on-medium hide-on-small">
+      <div id="drop-down-soeg" class="container-fluid show-on-large show-on-medium hide-on-small">
+        <div class="row no-gutters">
+          <div class="col-md-6 col-lg-4 bg-vare-soeg justify-content-center show-on-large show-on-medium hide-on-small">
 
-                <!-- Product -->
-                <div class="row no-gutters align-items-center border-b mt-2 pb-2">
-                  <div class="col-2 text-center">
-                    <a href="https://sb-html.grapixmo.com/flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
-                  </div>
-                  <div class="col-6 text-left d-flex">
-                    <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
-                  </div>
-                  <div class="col text-center d-flex">
-                    <div class="col no-gutters w-50 float-left p-0">
-                      <label for="pro-et" class="d-none"></label>
-                      <input name="pro-et" id="pro-et" type="text" class="felt-laeg-soeg"/>
-                    </div>
-                    <div class="w-50 float-right">
-                      <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Product -->
-                <div class="row no-gutters align-items-center border-b mt-2 pb-2">
-                  <div class="col-2 text-center">
-                    <a href="https://sb-html.grapixmo.com/flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
-                  </div>
-                  <div class="col-6 text-left d-flex">
-                    <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
-                  </div>
-                  <div class="col text-center d-flex">
-                    <div class="col no-gutters w-50 float-left p-0">
-                      <label for="pro-to" class="d-none"></label>
-                      <input name="pro-to" id="pro-to" type="text" class="felt-laeg-soeg"/>
-                    </div>
-                    <div class="w-50 float-right">
-                      <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Product -->
-                <div class="row no-gutters align-items-center border-b mt-2 pb-2">
-                  <div class="col-2 text-center">
-                    <a href="https://sb-html.grapixmo.com/flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
-                  </div>
-                  <div class="col-6 text-left d-flex">
-                    <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
-                  </div>
-                  <div class="col text-center d-flex">
-                    <div class="col no-gutters w-50 float-left p-0">
-                      <label for="pro-tre" class="d-none"></label>
-                      <input name="pro-tre" id="pro-tre" type="text" class="felt-laeg-soeg"/>
-                    </div>
-                    <div class="w-50 float-right">
-                      <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Product -->
-                <div class="row no-gutters align-items-center border-b mt-2 pb-2">
-                  <div class="col-2 text-center">
-                    <a href="https://sb-html.grapixmo.com/flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
-                  </div>
-                  <div class="col-6 text-left d-flex">
-                    <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
-                  </div>
-                  <div class="col text-center d-flex">
-                    <div class="col no-gutters w-50 float-left p-0">
-                      <label for="pro-fire" class="d-none"></label>
-                      <input name="pro-fire" id="pro-fire" type="text" class="felt-laeg-soeg"/>
-                    </div>
-                    <div class="w-50 float-right">
-                      <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
-                    </div>
-                  </div>
-                </div>
-
+          <!-- Product -->
+          <div class="row no-gutters align-items-center border-b mt-2 pb-2">
+            <div class="col-2 text-center">
+              <a href="flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
             </div>
-          </div>
-        </div>
-
-            <!-- IKONER-->
-            <div class="col-4 show-on-large show-on-medium hide-on-small">
-              <ul id="topnav" class="right">
-                <li>
-                  <a href="http://sitesb-html-v2.sesejose.com/konto.html"><i class="icon-person"></i>Profil</a>
-                </li>
-                <li>
-                  <a href="#"><i class="icon-document"></i>Vilkår</a>
-                </li>
-                <li>
-                  <a href="#"><i class="icon-login"></i>Log ind</a>
-                </li>
-              </ul>
+            <div class="col-6 text-left d-flex">
+              <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
             </div>
-          </div>
-          <!-- CLOSE id="top-container" -->
-
-          <!-- IKONER MOBILE-->
-          <div class="col right hide-on-large hide-on-medium" style="position: absolute !important">
-            <ul id="topnav">
-              <li>
-                <a href="#"><i class="icon-login"></i></a>
-              </li>
-              <li>
-                <a href="http://sesejose.com/sitesb-html-v2/konto.html"><i class="icon-person"></i></a>
-              </li>
-              <li>
-                <a onclick="opensearch()"><i class="icon-search"></i></a>
-              </li>
-              <li>
-                <a onclick="openkurvmobile()"><i class="icon-cart"></i></a>
-              </li>
-              <li>
-                <a onclick="openmenumobile()"><i class="icon-menu"></i></a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- MENU DESKTOP-->
-          <div class="container-menu row hide-on-small show-on-medium show-on-large">
-            <ul id="menu" class="main-menu">
-              <li>
-                <a href="#">ØL</a>
-                <ul class="ul-et">
-                  <li><a href="#">DÅSEØL</a></li>
-                  <li><a href="http://sitesb-html-v2.sesejose.com/">FLASKEØL</a></li>
-                  <li><a href="#">SPECIALØL</a></li>
-                  <li><a href="#">FADØL</a></li>
-                  <li><a href="#">ØKO</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">LÆSKEDRIK</a>
-                <ul class="ul-et">
-                  <li>
-                    <a>SODAVAND</a>
-                    <ul class="ul-to">
-                      <li><a href="#">DÅSESODAVAND</a></li>
-                      <li><a href="#">SMÅ SODAVAND</a></li>
-                      <li><a href="#">MELLEM SODAVAND</a></li>
-                      <li><a href="#">STORE SODAVAND</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">MINERALVAND</a></li>
-                  <li><a href="#">ENERGIDRIK</a></li>
-                  <li><a href="#">JUICE & COCIO</a></li>
-                  <li><a href="#">ØKO</a></li>
-                </ul>
-              </li>
-              <li><a href="#">CIDER & RTD</a></li>
-              <li>
-                <a href="#">SPIRITUS</a>
-                <ul>
-                  <li><a href="#">VODKA</a></li>
-                  <li><a href="#">SHOTS</a></li>
-                  <li><a href="#">GIN</a></li>
-                  <li><a href="#">ROM</a></li>
-                  <li><a href="#">WHISKEY</a></li>
-                  <li><a href="#">LIKØR</a></li>
-                  <li><a href="#">BITTER</a></li>
-                  <li><a href="#">COGNAC</a></li>
-                  <li><a href="#">SNAPS</a></li>
-                  <li><a href="#">TEQUILA</a></li>
-                  <li><a href="#">SIRUP</a></li>
-                  <li><a href="#">SLUSH ICE</a></li>
-                </ul>
-              </li>
-              <li><a href="#">BARARTIKLER</a></li>
-              <li><a href="#">CHIPS & SNACKS</a></li>
-              <li><a href="#">VIN & BOBLER</a></li>
-              <!-- <li>NYHEDER</li>
-                <li>TILBUD</li> -->
-            </ul>
-          </div>
-
-          <!-- SØG MOBILE -->
-          <div id="soeger" class="row show-on-small hide-on-medium hide-on-large soeger no-gutters">
-            <div class="input-group mb-3">
-              <input id="search" type="text" class="form-control" placeholder="Søg produkter, brands, kategorier, osv" aria-label="Søg produkter, brands, kategorier, osv" aria-describedby="button-addon2" />
-              <div class="input-group-append">
-                <button onclick="opendropdownsoegm()" class="btn btn-outline-secondary soeg" type="submit" name="action"><i class="icon-search"></i></button>
-                <!-- <i class="material-icons">close</i> -->
+            <div class="col text-center d-flex">
+              <div class="col no-gutters w-50 float-left p-0">
+                <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
+              </div>
+              <div class="w-50 float-right">
+                <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
               </div>
             </div>
           </div>
 
-          <!-- <div id="soeger" class="row hide-on-med-and-up soeger show-on-small">
-              <form>   
-                <div class="input-field">
-                  <input id="search" type="search" required>                
-                  <label class="label-icon" for="search"><button class="soeg" type="submit" name="action"><i class="icon-search"></i></button></label>
-                  <i class="material-icons">close</i>
-                </div>
-              </form>
-            </div> -->
-
-          <!-- DROP-DOWN SØG MOBILE-->
-          <div id="drop-down-soeg-m" class="container-fluid hide-on-large hide-on-medium show-on-small">
-            <div class="row no-gutters">
-              <div class="col bg-vare-soeg justify-content-center show-on-large hide-on-medium show-on-small">
-                <!-- Product -->
-                <div class="row no-gutters align-items-center border-b mt-2 pb-2">
-                  <div class="col-2 text-center">
-                    <a href="https://sb-html.grapixmo.com/flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
-                  </div>
-                  <div class="col-6 text-left d-flex">
-                    <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
-                  </div>
-                  <div class="col text-center d-flex">
-                    <div class="col no-gutters w-50 float-left p-0">
-                      <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
-                    </div>
-                    <div class="w-50 float-right">
-                      <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Product -->
-                <div class="row no-gutters align-items-center border-b mt-2 pb-2">
-                  <div class="col-2 text-center">
-                    <a href="https://sb-html.grapixmo.com/flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
-                  </div>
-                  <div class="col-6 text-left d-flex">
-                    <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
-                  </div>
-                  <div class="col text-center d-flex">
-                    <div class="col no-gutters w-50 float-left p-0">
-                      <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
-                    </div>
-                    <div class="w-50 float-right">
-                      <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Product -->
-                <div class="row no-gutters align-items-center border-b mt-2 pb-2">
-                  <div class="col-2 text-center">
-                    <a href="https://sb-html.grapixmo.com/flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
-                  </div>
-                  <div class="col-6 text-left d-flex">
-                    <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
-                  </div>
-                  <div class="col text-center d-flex">
-                    <div class="col no-gutters w-50 float-left p-0">
-                      <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
-                    </div>
-                    <div class="w-50 float-right">
-                      <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
-                    </div>
-                  </div>
-                </div>
-
-
-                <!-- Product -->
-                <div class="row no-gutters align-items-center border-b mt-2 pb-2">
-                  <div class="col-2 text-center">
-                    <a href="https://sb-html.grapixmo.com/flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
-                  </div>
-                  <div class="col-6 text-left d-flex">
-                    <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
-                  </div>
-                  <div class="col text-center d-flex">
-                    <div class="col no-gutters w-50 float-left p-0">
-                      <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
-                    </div>
-                    <div class="w-50 float-right">
-                      <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
-                    </div>
-                  </div>
-                </div>
-
+          <!-- Product -->
+          <div class="row no-gutters align-items-center border-b mt-2 pb-2">
+            <div class="col-2 text-center">
+              <a href="flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
+            </div>
+            <div class="col-6 text-left d-flex">
+              <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
+            </div>
+            <div class="col text-center d-flex">
+              <div class="col no-gutters w-50 float-left p-0">
+                <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
+              </div>
+              <div class="w-50 float-right">
+                <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
               </div>
             </div>
           </div>
 
-          <!-- KURV ÅBNET MOBILE -->
-          <div id="aabner-kurv-mobile" class="col no-gutters kurv-aabnet hide-on-small hide-on-medium hide-on-large" style="display: none">
-            <div class="col">
-              <div class="col header-kurv-aabnet">
-                <div class="mr-3 no-gutters"><i class="icon-cart"></i></div>
-                <div class="mr-3 no-gutters w-100"><h4>DIN KURV</h4></div>
-                <div class="ml-3 no-gutters float-right">
-                  <a onclick="closekurvmobile()" href="#"><i class="icon-close"></i></a>
-                </div>
+          <!-- Product -->
+          <div class="row no-gutters align-items-center border-b mt-2 pb-2">
+            <div class="col-2 text-center">
+              <a href="flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
+            </div>
+            <div class="col-6 text-left d-flex">
+              <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
+            </div>
+            <div class="col text-center d-flex">
+              <div class="col no-gutters w-50 float-left p-0">
+                <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
               </div>
-
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td class="bold"><p>PRODUKTER</p></td>
-                    <td><p>367,00 kr</p></td>
-                  </tr>
-                  <tr>
-                    <td class="bold"><p>PANT</p></td>
-                    <td><p>85,00 kr</p></td>
-                  </tr>
-                  <tr>
-                    <td class="bold"><p>LEVERING</p></td>
-                    <td><p>1000 kr</p></td>
-                  </tr>
-                  <tr>
-                    <td class="bold"><p>MOMS</p></td>
-                    <td><p>25% - 90,48 kr</p></td>
-                  </tr>
-                  <tr style="background-color: #e6e7e8">
-                    <th scope="row"><h5>16245,00 kr</h5></th>
-                    <td>
-                      <a href="http://sitesb-html-v2.sesejose.com/bestilling.html"
-                        ><button class="btn-lyseraad" type="submit" name="action"><p>FORSÆT</p></button></a
-                      >
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div class="pl-3 pr-3 mb-3 text-center"><p>Mangler 3248,00 kr. for gratis levering</p></div>
-
-              <div class="pl-3 pr-3 mb-4 fremregnede-lyseblaa font-weight-bold text-center" style="text-transform: uppercase">
-                <h6>Se alle produkter fra studenterbolaget</h6>
-                <div class="arrow-down"></div>
+              <div class="w-50 float-right">
+                <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
               </div>
-
-              <div class="pl-3 pr-3">
-                <!-- START BG -->
-
-                <div>
-                  <!-- her kommer produkter i kurv flap åbnet-->
-                  <div class="col-sm text-center box-content-vare-flap">
-                    <div style="width: 35%; float: left"><img src="images/flaske.jpg" alt="" class="img-vare-flap content-img-vare-flap" /></div>
-                    <div class="row no-gutters box-text-vare-flap" style="width: 65%; float: right">
-                      <p class="font-weight-bold">ROYAL PILSNER</p>
-                      <span class="cl-flasker">33 cl + 24 Flasker</span>
-                      <h5 class="price font-weight-bold">160,00 DKK</h5>
-                      <div class="w-100"></div>
-                      <div class="col no-gutters" style="float: left"><input id="#" type="text" class="felt-laeg-vare-flap" placeholder="" aria-label="" aria- describedby="button-addon2" /></div>
-                      <div class="col no-gutters btn-laeg-vare-flap align-middle" style="float: right"><a href="#" class="btn btn-laeg-vare-flap font-weight-bold">LÆG I KURV</a></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <div class="col-sm text-center box-content-vare-flap">
-                    <div style="width: 35%; float: left"><img src="images/flaske.jpg" alt="" class="img-vare-flap content-img-vare-flap" /></div>
-                    <div class="row no-gutters box-text-vare-flap" style="width: 65%; float: right">
-                      <p class="font-weight-bold">ROYAL PILSNER</p>
-                      <span class="cl-flasker">33 cl + 24 Flasker</span>
-                      <h5 class="price font-weight-bold">160,00 DKK</h5>
-                      <div class="w-100"></div>
-                      <div class="col no-gutters" style="float: left"><input id="#" type="text" class="felt-laeg-vare-flap" placeholder="" aria-label="" aria- describedby="button-addon2" /></div>
-                      <div class="col no-gutters btn-laeg-vare-flap align-middle" style="float: right"><a href="#" class="btn btn-laeg-vare-flap font-weight-bold">LÆG I KURV</a></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <div class="col-sm text-center box-content-vare-flap">
-                    <div style="width: 35%; float: left"><img src="images/flaske.jpg" alt="" class="img-vare-flap content-img-vare-flap" /></div>
-                    <div class="row no-gutters box-text-vare-flap" style="width: 65%; float: right">
-                      <p class="font-weight-bold">ROYAL PILSNER</p>
-                      <span class="cl-flasker">33 cl + 24 Flasker</span>
-                      <h5 class="price font-weight-bold">160,00 DKK</h5>
-                      <div class="w-100"></div>
-                      <div class="col no-gutters" style="float: left"><input id="#" type="text" class="felt-laeg-vare-flap" placeholder="" aria-label="" aria- describedby="button-addon2" /></div>
-                      <div class="col no-gutters btn-laeg-vare-flap align-middle" style="float: right"><a href="#" class="btn btn-laeg-vare-flap font-weight-bold">LÆG I KURV</a></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- END BG -->
             </div>
           </div>
 
-          <!-- TOGLE COLLAPSE MENU -->
-          <div id="container-menu-mobile" style="display: none">
-            <label class="labelClass" for="menu-toggle-ol">ØL</label>
-            <input type="checkbox" id="menu-toggle-ol" />
-            <ul id="menu-mobile" class="">
-              <li><a href="#">DÅSEØL</a></li>
-              <li><a href="http://sitesb-html-v2.sesejose.com/">FLASKEØL</a></li>
-              <li><a href="#">SPECIALØL</a></li>
-              <li><a href="#">FADØL</a></li>
-              <li><a href="#">ØKO</a></li>
-            </ul>
-
-            <label class="labelClass" for="menu-toggle-lesedrik">LÆSEDRIK</label>
-            <input type="checkbox" id="menu-toggle-lesedrik" />
-            <ul id="menu-mobile" class="">
-              <li><a href="#">SODAVAND</a></li>
-              <li><a href="#">MINERALVAND</a></li>
-              <li><a href="#">ENERGIDRIK</a></li>
-              <li><a href="#">JUICE & COCIO</a></li>
-              <li><a href="#">ØKO</a></li>
-            </ul>
-
-            <!-- <label class="labelClass" for="menu-toggle-sodavand">SODAVAND</label>
-                  <input type="checkbox" id="menu-toggle-sodavand"/>
-                  <ul id="menu-mobile" class="">
-                    <li><a href="#">DÅSESODAVAND</a></li>
-                    <li><a href="#">SMÅ SODAVAND</a></li>
-                    <li><a href="#">MELLEM SODAVAND</a></li>
-                    <li><a href="#">STORE SODAVAND</a></li>
-                  </ul> -->
-
-            <label class="labelClass" for="menu-toggle-cider">CIDER & RTD</label>
-            <input type="checkbox" id="menu-toggle-cider" />
-            <ul id="menu-mobile" class="">
-              <li><a href="#">CIDER & RTD</a></li>
-            </ul>
-
-            <label class="labelClass" for="menu-toggle-spiritus">SPIRITUS</label>
-            <input type="checkbox" id="menu-toggle-spiritus" />
-            <ul id="menu-mobile" class="">
-              <li><a href="#">VODKA</a></li>
-              <li><a href="#">SHOTS</a></li>
-              <li><a href="#">GIN</a></li>
-              <li><a href="#">ROM</a></li>
-              <li><a href="#">WHISKEY</a></li>
-              <li><a href="#">LIKØR</a></li>
-              <li><a href="#">BITTER</a></li>
-              <li><a href="#">COGNAC</a></li>
-              <li><a href="#">SNAPS</a></li>
-              <li><a href="#">TEQUILA</a></li>
-              <li><a href="#">SIRUP</a></li>
-              <li><a href="#">SLUSH ICE</a></li>
-            </ul>
-
-            <label class="labelClass" for="menu-toggle-barartikler">BARARTIKLER</label>
-            <input type="checkbox" id="menu-toggle-barartikler" />
-            <ul id="menu-mobile" class="">
-              <li><a href="#">BARARTIKLER</a></li>
-            </ul>
-
-            <label class="labelClass" for="menu-toggle-chips">CHIPS & SNACKS</label>
-            <input type="checkbox" id="menu-toggle-chips" />
-            <ul id="menu-mobile" class="">
-              <li><a href="#">CHIPS & SNACKS</a></li>
-            </ul>
-
-            <label class="labelClass" for="menu-toggle-vin">VIN & BOBLER</label>
-            <input type="checkbox" id="menu-toggle-vin" />
-            <ul id="menu-mobile" class="">
-              <li><a href="#">VIN & BOBLER</a></li>
-            </ul>
+          <!-- Product -->
+          <div class="row no-gutters align-items-center border-b mt-2 pb-2">
+            <div class="col-2 text-center">
+              <a href="flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
+            </div>
+            <div class="col-6 text-left d-flex">
+              <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
+            </div>
+            <div class="col text-center d-flex">
+              <div class="col no-gutters w-50 float-left p-0">
+                <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
+              </div>
+              <div class="w-50 float-right">
+                <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
+              </div>
+            </div>
           </div>
-        </div>
-        <!--End row -->
+
       </div>
-      <!--End Container-fluid -->
-    </header>
+    </div>
+  </div>
+
+<!--IKONER-->
+      <div class="col-4 show-on-large show-on-medium hide-on-small">
+          <ul id="topnav" class="right">
+            <li><a href="konto.html"><i class="icon-person"></i>Profil</a></li>
+            <li><a href="#"><i class="icon-document"></i>Vilkår</a></li>
+            <li><a href="#"><i class="icon-login"></i>Log ind</a></li>
+          </ul>
+      </div>
+
+      </div><!-- CLOSE id="top-container" -->
+
+<!--IKONER MOBILE-->
+      <div class="col right hide-on-large hide-on-medium show-on-small position-absolute">                
+          <ul id="topnav">
+            <li><a href="#"><i class="icon-login"></i></a></li>
+            <li><a href="konto.html"><i class="icon-person"></i></a></li>
+            <li><a onclick="opensearch()"><i class="icon-search"></i></a></li>
+            <li><a onclick="openkurvmobile()"><i class="icon-cart"></i></a></li>
+            <li><a onclick="openmenumobile()"><i class="icon-menu"></i></a></li>
+          </ul>                  
+      </div>
+
+<!--MENU DESKTOP-->
+        <div class="container-menu row hide-on-small show-on-medium show-on-large">
+          <ul id="menu" class="main-menu">
+            <li><a href="flaske.html">ØL</a>
+              <ul class="ul-et">
+                <li><a href="flaske.html">DÅSEØL</a></li>
+                <li><a href="flaske.html">FLASKEØL</a></li>
+                <li><a href="flaske.html">SPECIALØL</a></li>
+                <li><a href="flaske.html">FADØL</a></li>
+                <li><a href="flaske.html">ØKO</a></li>
+              </ul>
+            </li>
+            <li><a href="flaske.html">LÆSKEDRIK</a>
+              <ul class="ul-et">
+                <li>
+                  <a>SODAVAND</a>
+                  <ul class="ul-to">
+                    <li><a href="flaske.html">DÅSESODAVAND</a></li>
+                    <li><a href="flaske.html">SMÅ SODAVAND</a></li>
+                    <li><a href="flaske.html">MELLEM SODAVAND</a></li>
+                    <li><a href="flaske.html">STORE SODAVAND</a></li>
+                  </ul>
+                </li>
+                <li><a href="flaske.html">MINERALVAND</a></li>
+                <li><a href="flaske.html">ENERGIDRIK</a></li>
+                <li><a href="flaske.html">JUICE & COCIO</a></li>
+                <li><a href="flaske.html">ØKO</a></li>     
+              </ul>
+            </li>
+            <li><a href="flaske.html">CIDER & RTD</a></li>
+            <li><a href="flaske.html">SPIRITUS</a>
+              <ul>
+                <li><a href="flaske.html">VODKA</a></li>
+                <li><a href="flaske.html">SHOTS</a></li>
+                <li><a href="flaske.html">GIN</a></li>
+                <li><a href="flaske.html">ROM</a></li>
+                <li><a href="flaske.html">WHISKEY</a></li>
+                <li><a href="flaske.html">LIKØR</a></li>
+                <li><a href="flaske.html">BITTER</a></li>
+                <li><a href="flaske.html">COGNAC</a></li>
+                <li><a href="flaske.html">SNAPS</a></li>
+                <li><a href="flaske.html">TEQUILA</a></li>
+                <li><a href="flaske.html">SIRUP</a></li>
+                <li><a href="flaske.html">SLUSH ICE</a></li>
+              </ul>
+            </li>
+            <li><a href="flaske.html">BARARTIKLER</a></li>
+            <li><a href="flaske.html">CHIPS & SNACKS</a></li>
+            <li><a href="flaske.html">VIN & BOBLER</a></li>
+            <!-- <li>NYHEDER</li>
+            <li>TILBUD</li> -->
+          </ul>              
+        </div> 
+
+<!-- SØG MOBILE -->
+      <div id="soeger" class="row show-on-small hide-on-medium hide-on-large soeger no-gutters">
+        <div class="input-group mb-3">
+          <input id="search" type="text" class="form-control" placeholder="Søg produkter, brands, kategorier, osv" aria-label="Søg produkter, brands, kategorier, osv" aria-describedby="button-addon2">
+          <div class="input-group-append">
+            <button onclick="opendropdownsoegm()" class="btn btn-outline-secondary soeg" type="submit" name="action"><i class="icon-search"></i></button>
+            <!-- <i class="material-icons">close</i> -->
+          </div>
+        </div>
+      </div>
+
+
+        <!-- <div id="soeger" class="row hide-on-med-and-up soeger show-on-small">
+          <form>   
+            <div class="input-field">
+              <input id="search" type="search" required>                
+              <label class="label-icon" for="search"><button class="soeg" type="submit" name="action"><i class="icon-search"></i></button></label>
+              <i class="material-icons">close</i>
+            </div>
+          </form>
+        </div> -->
+
+<!-- DROP-DOWN SØG MOBILE-->
+<div id="drop-down-soeg-m" class="container-fluid hide-on-large hide-on-medium show-on-small">
+<div class="row no-gutters">
+<div class="col bg-vare-soeg justify-content-center show-on-large hide-on-medium show-on-small">
+  <!-- Product -->
+  <div class="row no-gutters align-items-center border-b mt-2 pb-2">
+    <div class="col-2 text-center">
+      <a href="flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
+    </div>
+    <div class="col-6 text-left d-flex">
+      <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
+    </div>
+    <div class="col text-center d-flex">
+      <div class="col no-gutters w-50 float-left p-0">
+        <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
+      </div>
+      <div class="w-50 float-right">
+        <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product -->
+  <div class="row no-gutters align-items-center border-b mt-2 pb-2">
+    <div class="col-2 text-center">
+      <a href="flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
+    </div>
+    <div class="col-6 text-left d-flex">
+      <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
+    </div>
+    <div class="col text-center d-flex">
+      <div class="col no-gutters w-50 float-left p-0">
+        <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
+      </div>
+      <div class="w-50 float-right">
+        <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product -->
+  <div class="row no-gutters align-items-center border-b mt-2 pb-2">
+    <div class="col-2 text-center">
+      <a href="flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
+    </div>
+    <div class="col-6 text-left d-flex">
+      <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
+    </div>
+    <div class="col text-center d-flex">
+      <div class="col no-gutters w-50 float-left p-0">
+        <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
+      </div>
+      <div class="w-50 float-right">
+        <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Product -->
+  <div class="row no-gutters align-items-center border-b mt-2 pb-2">
+    <div class="col-2 text-center">
+      <a href="flaske.html"> <img src="images/flaske.jpg" alt="" class="img-vare-soeg content"/></a>
+    </div>
+    <div class="col-6 text-left d-flex">
+      <p class="bold">ROYAL PILSNER<br />33 cl + 24 Flasker<br />160,00 DKK</p>
+    </div>
+    <div class="col text-center d-flex">
+      <div class="col no-gutters w-50 float-left p-0">
+        <input type="text" class="felt-laeg-soeg" placeholder="" aria-label="" aria-describedby="button-addon2" />
+      </div>
+      <div class="w-50 float-right">
+        <a href="#" class="btn btn-laeg-soeg font-weight-bold"><p class="extra-small-text">LÆG I KURV</p></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+
+<!-- KURV ÅBNET MOBILE -->
+  <div id="aabner-kurv-mobile" class="col no-gutters kurv-aabnet hide-on-small hide-on-medium hide-on-large">
+    <div class="col">
+
+      <div class="col header-kurv-aabnet">                
+            <div class="mr-3 no-gutters"><i class="icon-cart"></i></div>
+            <div class="mr-3 no-gutters w-100"><h4>DIN KURV</h4></div> 
+            <div class="ml-3 no-gutters float-right"><a onclick="closekurvmobile()" href="#"><i class="icon-close"></i></a></div>
+      </div>
+      
+      <table class="table">
+        <tbody>
+          <tr>
+            <td class="bold"><p>PRODUKTER</p></td>
+            <td><p>367,00 kr</p></td>
+          </tr>
+          <tr>
+            <td class="bold"><p>PANT</p></td>
+            <td><p>85,00 kr</p></td>
+          </tr>
+          <tr>
+            <td class="bold"><p>LEVERING</p></td>
+            <td><p>1000 kr</p></td>
+          </tr>
+          <tr>
+            <td class="bold"><p>MOMS</p></td>
+            <td><p>25% - 90,48 kr</p></td>
+          </tr>
+          <tr class="tr-bg">
+            <th scope="row"><h5>16245,00 kr</h5></th>
+            <td><a href="bestilling.html" class="btn-lyseraad">FORTSÆTTE</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="pl-3 pr-3 mb-3 text-center"><p>Mangler 3248,00 kr. for gratis levering</p></div>
+
+      <div class="pl-3 pr-3 mb-4 fremregnede-lyseblaa font-weight-bold text-center text-uppercase"><h6>Se alle produkter fra studenterbolaget</h6>
+      <div class="arrow-down"></div></div>
+
+
+      <div class="pl-3 pr-3"> <!-- START BG -->
+
+        <div>           
+          <div class="col-sm text-center box-content-vare-flap float-left">
+            <div class="image float-left"><img src="images/flaske.jpg" alt="" class="img-vare-flap content-img-vare-flap"></div>
+            <div class="row no-gutters box-text-vare-flap float-right">
+                  <p class="font-weight-bold">ROYAL PILSNER</p>
+                  <span class="cl-flasker">33 cl + 24 Flasker</span>
+                  <h5 class="price font-weight-bold">160,00 DKK</h5>
+            <div class="w-100"></div>
+                  <div class="col no-gutters float-left"><input id="#" type="text" class="felt-laeg-vare-flap" placeholder="" aria-label="" aria-  describedby="button-addon2"></div>
+                  <div class="col no-gutters btn-laeg-vare-flap align-middle float-right"><a href="#" class="btn btn-laeg-vare-flap font-weight-bold">LÆG I KURV</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div>           
+          <div class="col-sm text-center box-content-vare-flap float-left">
+            <div class="image float-left"><img src="images/flaske.jpg" alt="" class="img-vare-flap content-img-vare-flap"></div>
+            <div class="row no-gutters box-text-vare-flap float-right">
+                  <p class="font-weight-bold">ROYAL PILSNER</p>
+                  <span class="cl-flasker">33 cl + 24 Flasker</span>
+                  <h5 class="price font-weight-bold">160,00 DKK</h5>
+            <div class="w-100"></div>
+                  <div class="col no-gutters float-left"><input id="#" type="text" class="felt-laeg-vare-flap" placeholder="" aria-label="" aria-  describedby="button-addon2"></div>
+                  <div class="col no-gutters btn-laeg-vare-flap align-middle float-right"><a href="#" class="btn btn-laeg-vare-flap font-weight-bold">LÆG I KURV</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div>           
+          <div class="col-sm text-center box-content-vare-flap float-left">
+            <div class="image float-left"><img src="images/flaske.jpg" alt="" class="img-vare-flap content-img-vare-flap"></div>
+            <div class="row no-gutters box-text-vare-flap float-right">
+                  <p class="font-weight-bold">ROYAL PILSNER</p>
+                  <span class="cl-flasker">33 cl + 24 Flasker</span>
+                  <h5 class="price font-weight-bold">160,00 DKK</h5>
+            <div class="w-100"></div>
+                  <div class="col no-gutters float-left"><input id="#" type="text" class="felt-laeg-vare-flap" placeholder="" aria-label="" aria-  describedby="button-addon2"></div>
+                  <div class="col no-gutters btn-laeg-vare-flap align-middle float-right"><a href="#" class="btn btn-laeg-vare-flap font-weight-bold">LÆG I KURV</a></div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- END BG -->
+
+    </div>
+  </div>
+
+<!-- TOGLE COLLAPSE MENU -->
+  <div id="container-menu-mobile"> 
+
+          <label class="labelClass" for="menu-toggle-ol">ØL</label>
+              <input type="checkbox" id="menu-toggle-ol"/>
+                <ul id="menu-mobile" class="">
+                  <li><a href="flaske.html">DÅSEØL</a></li>
+                  <li><a href="flaske.html">FLASKEØL</a></li>
+                  <li><a href="flaske.html">SPECIALØL</a></li>
+                  <li><a href="flaske.html">FADØL</a></li>
+                  <li><a href="flaske.html">ØKO</a></li>
+                </ul>
+
+          <label class="labelClass" for="menu-toggle-lesedrik">LÆSEDRIK</label>
+              <input type="checkbox" id="menu-toggle-lesedrik"/>
+              <ul id="menu-mobile" class="">
+                <li><a href="flaske.html">SODAVAND</a></li>  
+                <li><a href="flaske.html">MINERALVAND</a></li>
+                <li><a href="flaske.html">ENERGIDRIK</a></li>
+                <li><a href="flaske.html">JUICE & COCIO</a></li>
+                <li><a href="flaske.html">ØKO</a></li>
+              </ul>
+
+          <!-- <label class="labelClass" for="menu-toggle-sodavand">SODAVAND</label>
+              <input type="checkbox" id="menu-toggle-sodavand"/>
+              <ul id="menu-mobile" class="">
+                <li><a href="flaske.html">DÅSESODAVAND</a></li>
+                <li><a href="flaske.html">SMÅ SODAVAND</a></li>
+                <li><a href="flaske.html">MELLEM SODAVAND</a></li>
+                <li><a href="flaske.html">STORE SODAVAND</a></li>
+              </ul> -->
+
+          <label class="labelClass" for="menu-toggle-cider">CIDER & RTD</label>
+              <input type="checkbox" id="menu-toggle-cider"/>
+                  <ul id="menu-mobile" class="">
+                    <li><a href="flaske.html">CIDER & RTD</a></li>
+                  </ul>
+
+          <label class="labelClass" for="menu-toggle-spiritus">SPIRITUS</label>
+             <input type="checkbox" id="menu-toggle-spiritus"/>
+                <ul id="menu-mobile" class="">
+                  <li><a href="flaske.html">VODKA</a></li>
+                  <li><a href="flaske.html">SHOTS</a></li>
+                  <li><a href="flaske.html">GIN</a></li>
+                  <li><a href="flaske.html">ROM</a></li>
+                  <li><a href="flaske.html">WHISKEY</a></li>
+                  <li><a href="flaske.html">LIKØR</a></li>
+                  <li><a href="flaske.html">BITTER</a></li>
+                  <li><a href="flaske.html">COGNAC</a></li>
+                  <li><a href="flaske.html">SNAPS</a></li>
+                  <li><a href="flaske.html">TEQUILA</a></li>
+                  <li><a href="flaske.html">SIRUP</a></li>
+                  <li><a href="flaske.html">SLUSH ICE</a></li>
+                </ul>
+          <label class="labelClass" for="menu-toggle-barartikler">BARARTIKLER</label>
+             <input type="checkbox" id="menu-toggle-barartikler"/>
+                <ul id="menu-mobile" class="">
+                  <li><a href="flaske.html">BARARTIKLER</a></li>
+                </ul>
+
+          <label class="labelClass" for="menu-toggle-chips">CHIPS & SNACKS</label>
+            <input type="checkbox" id="menu-toggle-chips"/>
+                <ul id="menu-mobile" class="">
+                  <li><a href="flaske.html">CHIPS & SNACKS</a></li>
+                </ul>
+
+          <label class="labelClass" for="menu-toggle-vin">VIN & BOBLER</label>
+            <input type="checkbox" id="menu-toggle-vin"/>
+                <ul id="menu-mobile" class="">
+                  <li><a href="flaske.html">VIN & BOBLER</a></li>
+                </ul>            
+  </div>
+           
+    </div> <!--End row -->
+    </div> <!--End Container-fluid -->
+  
+</header>
 
     <!-- PANTHÅDNTERING -->
 
@@ -645,7 +619,7 @@
       <!-- TABLET / MOBILE -->
       <div class="col justify-content-md-center text-center">
         <div>
-          <a href="http://sitesb-html-v2.sesejose.com/">
+          <a href="index.html">
           <img class="logo-footer" src="images/logo.png" alt="Studenterbolaget Logo">
           </a>
         </div>
@@ -656,7 +630,7 @@
         <ul>
           <li class="extra-black"><h6><a href="#">ØL</h6></a></li>
           <li><a href="#"><p class="">Dåseøl</p></a></li>
-          <li><a href="http://sitesb-html-v2.sesejose.com/"><p class="">Flaskeøl</p></a></li>
+          <li><a href="#"><p class="">Flaskeøl</p></a></li>
           <li><a href="#"><p class="">Specialøl</p></a></li>
           <li><a href="#"><p class="">Fadøl</p></a></li>
           <li><a href="#"><p class="">Øko</p></a></li>
@@ -707,12 +681,12 @@
 
       <div class="col-sm text-center">            
         <h5>FØLG MED</h5><p>på de sociale medier</p>
-        <ul style="display: inline-flex; margin-top: 1rem !important; font-size: 24px !important;">
+        <ul class="some">
            <!--<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>-->
-          <li class=""><a href="https://www.facebook.com/Studenterbolaget/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li class=""><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
           <!--<li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
           <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>-->
-          <li class=""><a href="https://www.instagram.com/studenterbolaget/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li class=""><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
         </ul>              
       </div>
 
